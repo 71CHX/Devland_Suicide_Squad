@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,36 +8,81 @@
 
   <link rel="stylesheet" href="styles/main.css">
 </head>
+
 <body>
   <header>
     <div class="header-content">
       <div class="wrapper">
-        <img src="images/logo-big-v3.png" alt="Het logo van DeveloperLand met een draaimolen, kasteel, achtbaan en tot slot een gezin op de voorgrond." class="logo hidden-on-sm">
+        <img src="images/logo-big-v3.png"
+          alt="Het logo van DeveloperLand met een draaimolen, kasteel, achtbaan en tot slot een gezin op de voorgrond."
+          class="logo hidden-on-sm">
         <h1 class="hidden-on-lg">DeveloperLand</h1>
       </div>
     </div>
   </header>
   <main>
     <div class="wrapper">
-      <article>
+      <div class="winkelwagentjeH2">
         <h2>Winkelwagentje</h2>
-        <div>
-          <span>Dit zijn alle producten die u gaat bestellen. Controleer een laatste keer of alles klopt en ga daarna verder met de grote groene knop.</span>
-          <!-- 
-            Winkelwagen hier
-          -->
-          
-          <button>Dit is correct, verder naar betaling</button>
+      </div>
+      <div>
+
+        <span>Dit zijn alle producten die u gaat bestellen. Controleer een laatste keer of alles klopt en ga daarna
+          verder met de grote groene knop.</span>
+
+        <div class="winkeltable">
+          <table border="1">
+            <!-- Table header row -->
+            <thead>
+              <tr>
+                <th>Product</th>
+                <th>Prijs (enkel)</th>
+                <th>Aantal</th>
+                <th>Prijs (Totaal)</th>
+              </tr>
+            </thead>
+            <!-- Table body rows -->
+            <tbody>
+              <tr>
+                <td>Entreekaartje kind t/m 3 jaar</td>
+                <td> €0 </td>
+                <td>1</td>
+                <td> €0 </td>
+
+              </tr>
+
+              <tr>
+
+                <td>Entreekaartje Regulier</td>
+                <td>€24,95</td>
+                <td>2</td>
+                <td>€49,90</td>
+              </tr>
+              <tr>
+                <td>Entreekaartje Senior</td>
+                <td>€14,95</td>
+                <td>1</td>
+                <td>€14.95</td>
+              </tr>
+            <tfoot>
+              <td></td>
+              <td></td>
+              <td>Totaalsom <br> (incl.btw)</td>
+              <td>€64,85</td>
+            </tfoot>
+            </tbody>
+          </table>
         </div>
-      </article>
+
+        <a href="payment.html"><button>Dit is correct, verder naar betaling</button></a>
+      </div>
     </div>
   </main>
   <footer>
     <div class="wrapper">
       <div class="copyright">
-        &copy; 2020 - 2021  DeveloperLand&nbsp;&nbsp;All Rights Reserved
+        &copy; 2020 - 2021 DeveloperLand&nbsp;&nbsp;All Rights Reserved
       </div>
     </div>
   </footer>
 </body>
-</html>
