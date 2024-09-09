@@ -192,6 +192,17 @@ footer {
   display: block;
 }
 
+.emphasize {
+  box-shadow: 1px 0 5px #27AE6074;
+  padding: 1em;
+}
+
+.emphasize h2 {
+  margin: 0;
+  text-align: center;
+}
+
+
 .row {
   display: flex;
   flex-direction: row;
