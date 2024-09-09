@@ -260,11 +260,11 @@ footer {
 */
 @font-face {
   font-family: 'Heartbeat';
-  src: url('fonts/heartbeat.eot') format('eot'),
-    url('fonts/heartbeat.otf') format('otf'),
-    url('fonts/heartbeat.woff') format('woff'),
-    url('fonts/heartbeat.svg') format('svg'),
-    url('fonts/heartbeat.ttf') format('ttf');
+  src: url('/Devland_Suicide_Squad/PARKWEBSITE/fonts/heartbeat.eot') format('eot'),
+    url('/Devland_Suicide_Squad/PARKWEBSITE/fonts/heartbeat.otf') format('otf'),
+    url('/Devland_Suicide_Squad/PARKWEBSITE/fonts/heartbeat.woff') format('woff'),
+    url('/Devland_Suicide_Squad/PARKWEBSITE/fonts/heartbeat.svg') format('svg'),
+    url('/Devland_Suicide_Squad/PARKWEBSITE/fonts/heartbeat.ttf') format('ttf');
 }
 
 /*
