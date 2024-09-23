@@ -217,7 +217,10 @@ footer {
   display: flex;
   flex-direction: row;
 }
-
+.sidy-by-side {
+  flex-direction: column;
+  align-items: center;
+}
 /* 
   ##Device = Most of the Smartphones Mobiles (Portrait)
   ##Screen = B/w 320px to 479px
@@ -322,6 +325,58 @@ footer {
   to {
     opacity: 1;
   }
+}
+/* winkelmandje css */
+.winkeltable table {
+  border-collapse: collapse;
+  border: none;
+}
+
+.winkeltable th,
+.winkeltable td {
+  border: none;
+}
+
+.winkelwagentjeH2 {
+  display: flex;
+  font-size: large;
+}
+
+/* Product pagina */
+.productmokgeheel {
+  display: flex;
+  align-items: start;
+}
+
+.productinfo {
+  max-width: 70%;
+  margin: 0;
+  padding: 0;
+}
+
+.productinfo p {
+  margin: 0;
+  padding: 0;
+}
+
+@media screen and (max-width:530px) {
+  .productmokgeheel {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .productmokgeheel img {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+  }
+
+  .productinfo {
+    max-width: 100%;
+    text-align: start;
+    margin-top: 10px;
+  }
+
 }
 /* payment */
 .sidy-by-side {
