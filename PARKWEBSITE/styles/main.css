@@ -217,10 +217,7 @@ footer {
   display: flex;
   flex-direction: row;
 }
-.sidy-by-side {
-  flex-direction: column;
-  align-items: center;
-}
+
 /* 
   ##Device = Most of the Smartphones Mobiles (Portrait)
   ##Screen = B/w 320px to 479px
@@ -231,9 +228,17 @@ footer {
   .hidden-on-lg {
     display: block;
   }
+  .row{
+    display: flex;
+    flex-direction: column;
+  }
 
   .hidden-on-sm {
     display: none;
+  }
+  .sidy-by-side {
+    flex-direction: column;
+    align-items: center;
   }
 }
 
