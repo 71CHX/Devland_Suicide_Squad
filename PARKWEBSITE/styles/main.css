@@ -323,3 +323,13 @@ footer {
     opacity: 1;
   }
 }
+/* payment */
+.sidy-by-side {
+  display: flex;
+  justify-content: space-between;
+}
+
+.payment h2 {
+  display: flex;
+  padding: 0;
+}
